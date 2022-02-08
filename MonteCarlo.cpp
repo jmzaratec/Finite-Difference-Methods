@@ -239,7 +239,7 @@ double f_Put_heston(  double S, double X, double dt, double sigma){
 
 
 }
-//no sirve
+//WIP
 double f_Put_hestonConvertible(  double S, double NB, double dt, double sigma, double F, double Z, double Cp){
 	//double a;
 	//a= max(S-X,0.);
@@ -428,7 +428,7 @@ int main(){
 
 
 std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/12_finiteDifferenceProject/bin.csv");
+	 output.open("C:/bin.csv");
 	 output. precision(10);
 	if(!output.is_open()) { std::cout << " File not opened \n";    
 	 throw;  }
