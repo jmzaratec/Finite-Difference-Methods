@@ -1,5 +1,5 @@
 /*
-* Program structure created by Paul Johnson. May be edited and 
+* Program structure created by Paul Johnson/Jose Zarate. May be edited and 
 * handed in as part of the coursework. Leave this here if this 
 * is the case.
 */
@@ -141,7 +141,7 @@ using namespace std;
 
 /*/ output		
  std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/12_finiteDifferenceProject/output2.csv");
+	 output.open("C:/Users/output2.csv");
 	 output. precision(10);
 	if(!output.is_open()) { std::cout << " File not opened \n";    
 	 throw;  }
@@ -300,7 +300,7 @@ using namespace std;
 
 /*/ output		
  std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/12_finiteDifferenceProject/output2.csv");
+	 output.open("C:/output2.csv");
 	 output. precision(10);
 	if(!output.is_open()) { std::cout << " File not opened \n";    
 	 throw;  }
@@ -520,7 +520,7 @@ int main(){
 
 // output GRID!!		
  std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/12_finiteDifferenceProject/output3.csv");
+	 output.open("C:/output3.csv");
 	 output. precision(15);
 	if(!output.is_open()) { std::cout << " File not opened \n";    
 	 throw;  }
@@ -544,7 +544,7 @@ int main(){
 
   /*/output DELTA		
  std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/12_finiteDifferenceProject/outputAme.csv");
+	 output.open("C:/outputAme.csv");
 	 output. precision(15);
 	if(!output.is_open()) { std::cout << " File not opened \n";    
 	 throw;  }
