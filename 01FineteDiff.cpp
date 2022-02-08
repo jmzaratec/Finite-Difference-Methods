@@ -1,5 +1,5 @@
 /*
-* Program structure created by Paul Johnson. May be edited and 
+* Program structure created by Paul Johnson/Jose Zarate. May be edited and 
 * handed in as part of the coursework. Leave this here if this 
 * is the case.
 */
@@ -106,7 +106,7 @@ int main(){
 
 	// output
 	std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/12_finiteDifferenceProject/output.csv");
+	 output.open("C:/Users/output.csv");
 	 output. precision(15);
 	if(!output.is_open()) { std::cout << " File not opened \n";    
 	 throw;  }
